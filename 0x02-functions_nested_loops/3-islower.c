@@ -1,15 +1,19 @@
-#include "holberton.h"
 #include "main.h"
 /**
-* _slower - test wheather a character is a
-* lowercase letter from the English alphabet.
-* @c: character to test.
-* Return: 1 if it is a lowercase letter, 0 if it is not a lowercase letter.
-*/
-int _islower(int c)
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
+int main(void)
 {
-if (c >= 'a' && c <= 'z')
-return (1);
-else
-return (0);
+	char i[] = "_putchar";
+
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(i[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
