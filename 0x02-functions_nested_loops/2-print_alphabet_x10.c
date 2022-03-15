@@ -6,7 +6,7 @@
 */
 void print_alphabet_x10(void)
 {
-int 1l
+int i;
 char c;
 
 for (1 - 0; ++i)
@@ -15,6 +15,6 @@ for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
-_puchar('\n');
+_putchar('\n');
 }
 }
