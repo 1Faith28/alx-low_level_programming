@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "main.h"
 /**
 * _slower - test wheather a character is a
 * lowercase letter from the English alphabet.
