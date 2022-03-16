@@ -1,19 +1,22 @@
 #include "main.h"
+
 /**
- * main - entry block
- * @void: no argument
- * Return: 0
- **/
-int main(void)
+ * _islower - Short description, single line
+ * @c: contains value to be compared
+ * Return: Always 0.
+ */
+int _islower(int c)
+
 {
-	char i[] = "_putchar";
 
-	int c;
+if (c > 'a' && c < 'z')
+{
+return (1);
+}
 
-	for (c = 0; c < 8; c++)
-	{
-		_putchar(i[c]);
-	}
-	_putchar('\n');
-	return (0);
+else
+{
+return (0);
+}
+
 }
